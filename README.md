@@ -31,9 +31,9 @@ Our codes are based on [Omni-SR](https://github.com/Francis0625/Omni-SR/)
 
 ### Test
 
-1. Make sure location configuration is correct in ./env/env.json
+1. Make sure the location configuration is correct in ./env/env.json
 
-2. Evaluate models with following cmd
+2. Evaluate models with the following cmd
 
 
 ```
@@ -51,4 +51,4 @@ python test.py -v "ASID_X2_DIV2K" -t tetser_Matlab -s 0 --test_dataset_name [Set
 
 ```
 
-3. Execute ./PSNR_SSIM_Evaluate.m for PSNR/SSIM report. Make sure location configuration and scale is correct in matlab file.
+3. Execute ./PSNR_SSIM_Evaluate.m for PSNR/SSIM report. Make sure the location configuration and scale are correct in the Matlab file.
