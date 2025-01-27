@@ -70,11 +70,35 @@ python test.py -v "Model_Name" -t tetser_Matlab -s 0 --test_dataset_name [Datase
 Example:
 
 ```
-python test.py -v "ASID_X2_DIV2K" -t tetser_Matlab -s 0 --test_dataset_name [Set5]
+python test.py -v "ASID_X2_DIV2K" -t tetser_Matlab -s 0 --test_dataset_name Set5
 
 ```
 
 3. Execute ./PSNR_SSIM_Evaluate.m for PSNR/SSIM report. Make sure the location configuration and scale are correct in the Matlab file.
+
+### Train
+
+1. Prepare training dataset (DIV2K) from [here](https://data.vision.ee.ethz.ch/cvl/DIV2K/), then set the location configuration in `./env/env.json`
+
+2. Prepare yaml file which contains training details in `./train_yamls/`
+
+3. Train the models with the following cmd
+
+```
+[Training from scratch] python train.py -v "Model_Name" -p train --train_yaml "[Training_Setting.yaml]"
+[Finetuning] python train.py -v "Model_Name" -p finetune -e [Epoch Number of the Pretrained Model] --train_yaml "[Training_Setting.yaml]"
+
+```
+Example:
+
+```
+python train.py -v "ASID_fromscratch_X2_DIV2K" -p train --train_yaml "train_ASID_X2_DIV2K.yaml"
+python train.py -v "ASID_fromscratch_X2_DIV2K" -p finetune -e 500 --train_yaml "train_ASIDfinetune_X2_DIV2K.yaml"
+```
+
+### How to reproduce ASID experimental results from scratch
+
+Our model was trained from scratch using a learning rate of 5e-4 for 500 epochs, and then fine-tuned with a learning rate of 4e-4 for an additional 1000 epochs.
 
 ### Citation
 ```
