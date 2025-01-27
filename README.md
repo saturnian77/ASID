@@ -45,7 +45,7 @@ Transformer-based Super-Resolution (SR) methods have demonstrated superior perfo
 <p align="center"><img src="figs/quantcom.PNG" width="900"></p>
 
 ### Visualized Results
-<p align="center"><img src="figures/qualcom.PNG" width="900"></p>
+<p align="center"><img src="figs/qualcom.PNG" width="900"></p>
 
 ## Guidelines for Codes
 
