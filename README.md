@@ -28,7 +28,7 @@ Accepted for AAAI 2025
 ## Acknowledgement
 
 We would like to express our thanks to the authors of Omni-SR for generously releasing their code to the public.
-Our codes are built on [Omni-SR](https://github.com/Francis0625/Omni-SR/) If you encounter any problems using the code, please refer to [Omni-SR Issue Threads](https://github.com/Francis0625/Omni-SR/issues) first.
+Our codes are built on [Omni-SR](https://github.com/Francis0625/Omni-SR/). If you encounter any problems using the code, please refer to [Omni-SR Issue Threads](https://github.com/Francis0625/Omni-SR/issues) first.
 
 ## Abstract
 
