@@ -35,18 +35,18 @@ Our codes are built on [Omni-SR](https://github.com/Francis0625/Omni-SR/). If yo
 Transformer-based Super-Resolution (SR) methods have demonstrated superior performance compared to convolutional neural network (CNN)-based SR approaches due to their capability to capture long-range dependencies. However, their high computational complexity necessitates the development of lightweight approaches for practical use. To address this challenge, we propose the Attention-Sharing Information Distillation (ASID) network, a lightweight SR network that integrates attention-sharing and an information distillation structure specifically designed for Transformer-based SR methods. We modify the information distillation scheme, originally designed for efficient CNN operations, to reduce the computational load of stacked self-attention layers, effectively addressing the efficiency bottleneck. Additionally, we introduce attention-sharing across blocks to further minimize the computational cost of self-attention operations. By combining these strategies, ASID achieves competitive performance with existing SR methods while requiring only around 300K parameters - significantly fewer than existing CNN-based and Transformer-based SR models. Furthermore, ASID outperforms state-of-the-art SR methods when the number of parameters is matched, demonstrating its efficiency and effectiveness.
 
 ## Proposed Method
-<p align="center"><img src="figs/PSNR.PNG" width="300"></p>
+<p align="center"><img src="figs/PSNR.PNG" width="350"></p>
 
 ### Overall Structure
-<p align="center"><img src="figs/method.PNG" width="700"></p>
+<p align="center"><img src="figs/method.PNG" width="900"></p>
 
 ## Experimental Results
 
 ### Quantitative Results
-<p align="center"><img src="figs/quantcom.PNG" width="900"></p>
+<p align="center"><img src="figs/quantcom.PNG" width="400"></p>
 
 ### Visualized Results
-<p align="center"><img src="figs/qualcom.PNG" width="900"></p>
+<p align="center"><img src="figs/qualcom.PNG" width="500"></p>
 
 ## Guidelines for Codes
 
