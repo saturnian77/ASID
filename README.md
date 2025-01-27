@@ -37,6 +37,8 @@ Transformer-based Super-Resolution (SR) methods have demonstrated superior perfo
 ## Proposed Method
 <p align="center"><img src="figs/PSNR.PNG" width="350"></p>
 
+ASID delivers competitive performance compared to existing lightweight SR methods while utilizing significantly fewer model parameters.
+
 ### Overall Structure
 <p align="center"><img src="figs/method.PNG" width="900"></p>
 
@@ -48,15 +50,17 @@ Transformer-based Super-Resolution (SR) methods have demonstrated superior perfo
 ### Visualized Results
 <p align="center"><img src="figs/qualcom.PNG" width="700"></p>
 
+Our results are available in `.\SR_Results`.
+
 ## Guidelines for Codes
 
 **Requisites should be installed beforehand.**
 
 ### Test
 
-1. Make sure the location configuration is correct in ./env/env.json
+1. Make sure the location configuration is correct in `./env/env.json`
 
-2. Evaluate models with the following cmd
+3. Evaluate models with the following cmd
 
 
 ```
