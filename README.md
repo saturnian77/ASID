@@ -50,7 +50,7 @@ ASID delivers competitive performance compared to existing lightweight SR method
 ### Visualized Results
 <p align="center"><img src="figs/qualcom.PNG" width="700"></p>
 
-Our results are available in `.\SR_Results`.
+More results are available in `./SR_Results`.
 
 ## Guidelines for Codes
 
