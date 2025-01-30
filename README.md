@@ -6,7 +6,7 @@ Karam Park, Jae Woong Soh, and Nam Ik Cho
 
 Accepted for AAAI 2025
 
-[Paper and Supplementary Material] Arxiv link will be updated soon.
+[Paper and Supplementary Material](https://arxiv.org/abs/2501.15774)
 
 ## Environments
 - Ubuntu 18.04
